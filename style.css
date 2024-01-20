@@ -1,0 +1,521 @@
+* {
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Open Sans',sans-serif;
+}
+
+.wrapper {
+    width: 1100px;
+    margin: auto;
+    position: relative;
+}
+.wrapper1 {
+    width: 1200px;
+    padding-top: 150px;
+    margin: auto;
+    position: relative;
+}
+.logo H1 {
+    font-size: 50px;
+    font-weight: 800;
+    float: left;
+    font-family: courier;
+    color: #364f6b;
+}
+
+.menu {
+    float: right;
+}
+
+nav {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    line-height: 80px;
+    position: sticky;
+    position: -webkit-sticky; 
+    top: 20px;
+    background: #FFFFFF;
+    z-index: 1;
+    border-radius: 40px;
+    box-shadow: 0.1px 0.1px 8px;
+}
+
+nav ul {
+
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    color: black;
+    text-align: center;
+    padding: 0px 16px 0px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+#background{
+  margin-top:-190px;
+  background:url('img/backgroud.gif') no-repeat;
+  background-size:cover;
+  padding-top:111px;
+  height:638px;
+  max-height:1112px;
+}
+
+#home1{
+  text-align: center;
+}
+
+#home1 .container h1{
+  margin:10px;
+}
+
+#home1 .container .row{
+  margin:-3px;
+  display:grid;
+  grid-template-columns: 66% auto;
+    padding: 4em 1em;
+    grid-template-columns: repeat(3, auto);
+    grid-template-rows: repeat(2, auto);
+}
+
+#home1 .isi .container.atas{
+  background-color:#f9f8f8;
+  box-shadow: 1px 1px 23px;
+  border-radius: 6px;
+  display:grid;
+  margin-top:-150px;
+  margin-bottom: 30px;
+  padding-bottom:37px;
+}
+.glyphicon{
+  position: relative;
+  font-size: 42px;
+  color: #27475e;
+}
+section {
+    margin: auto;
+
+    display: flex;
+    margin-bottom: 50px;
+}
+.judul H2 {
+
+    font-weight: 300;
+    font-size: 38px;
+    float: center;
+    font-family: Cabin, sans-serif;
+    color: #364f6b;
+}
+.line-shape {
+    margin-left: calc(50% - 40px);
+}
+.line-shape-white, .line-shape {
+    width: 80px;
+    height: 2px;
+    background-color: #364f6b;
+    margin-top: 10px;
+}
+.kolom {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+
+h3 {
+  color: #262626;
+  font-size: 17px;
+  line-height: 24px;
+  font-weight: 700;
+  margin-bottom: 4px;
+}
+
+#p {
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 20px;
+  color: #666666;
+
+  &.small {
+    font-size: 14px;
+  }
+}
+
+.go-corner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 32px;
+  height: 32px;
+  overflow: hidden;
+  top: 0;
+  right: 0;
+  background-color: #364f6b;
+  border-radius: 0 4px 0 32px;
+}
+
+.go-arrow {
+  margin-top: -4px;
+  margin-right: -4px;
+  color: white;
+  font-family: courier, sans;
+}
+
+.card1 {
+  display: block;
+  position: relative;
+  max-width: 262px;
+  background-color: #f2f8f9;
+  border-radius: 8px;
+  border-style: ridge;
+    border-color: #f9f8f8;
+  padding: 32px 24px;
+  margin: 12px;
+  text-decoration: none;
+  z-index: 0;
+  overflow: hidden;
+  border-style: 
+
+}
+
+.card1:hover {
+  p {
+    transition: all 0.3s ease-out;
+    color: rgba(255, 255, 255, 0.8);
+  }
+  h3 {
+    transition: all 0.3s ease-out;
+    color: #ffffff;
+  }
+}
+
+}
+
+.kolom .deskripsi {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Times New Roman';
+    color: #364f6b;
+}
+
+h2 {
+    font-family: 'comic sans ms';
+    font-weight: 800;
+    font-size: 45px;
+    margin-bottom: 20px;
+    color: #364f6b;
+    width: 100%;
+    line-height: 50px;
+}
+
+a.tbl-biru {
+    background: #3f72af;
+    border-radius: 23px 23px 23px 0;
+    margin-top: 20px;
+    padding: 15px 20px 15px 20px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+a.tbl-biru:hover {
+    background: #00008B;
+    text-decoration: none;
+}
+
+a.tbl-pink {
+    background: #FFFFFF;
+    border-radius: 23px 23px 23px 0;
+    margin-top: 20px;
+    padding: 15px 20px 15px 20px;
+    color: #fb397d;
+    cursor: pointer;
+}
+
+a.tbl-pink:hover {
+    background: #00008B;
+    text-decoration: none;
+}
+
+p {
+    margin: 10px 0px 10px 0px;
+    padding: 10px 0px 10px 0px;
+}
+
+
+
+.containerkelas {
+    padding: 0 16px;
+}
+
+.titlekelas {
+    color: grey;
+    font-size: 18px;
+}
+
+.buttonkelas {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #3f72af;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+}
+
+.akelas {
+    text-decoration: none;
+    font-size: 22px;
+    color: black;
+}
+
+.buttonkelas:hover, .akelas:hover {
+    opacity: 0.7;
+}
+
+.join {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+.join-section {
+    width: 40%;
+    margin: 0 auto;
+}
+.tengah {
+    text-align: center;
+    width: 100%;
+}
+
+.tutor-list {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.kartu-tutor {
+    width: 20%;
+    margin: 0 auto;
+}
+
+.kartu-tutor img {
+    width: 80%;
+    border-radius: 50%;
+}
+
+.kartu-tutor p {
+    font-family: 'comic sans ms';
+    font-weight: 800;
+    font-size: 25px;
+    text-align: center;
+    color: #364f6b;
+}
+
+.kelas-list {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.kartu-k {
+    width: 25%;
+    margin: 0 auto;
+}
+.kartukelas {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+}
+
+#contact {
+    background-image: linear-gradient(to right, #4682B4, #66C0F8,#4682B4, #46AFF1);
+    padding:50px 0px 50px 0px;
+}
+
+.footer {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+.footer-section {
+    width: 20%;
+    margin: 0 auto;
+}
+
+h3 {
+    font-family: 'comic sans ms';
+    font-weight: 800;
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: #364f6b;
+    width: 100%;
+    line-height: 50px;
+}
+
+#copyright {
+    text-align: center;
+    width: 100%;
+    padding: 50px 0px 50px 0px;
+    margin-top: 50px;
+}
+
+@media screen and (max-width: 991.98px) {
+    .wrapper {
+        width: 80%;
+    }
+    
+    .logo a {
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+
+    nav .menu {
+        width: 100%;
+        margin: 0;
+    }
+
+    nav .menu ul {
+        text-align: center;
+        margin: auto;
+        line-height: 60px;
+    }
+
+    nav .menu ul li {
+        display: inline-block;
+        float: none;
+    }
+
+    section {
+        display: block;
+    }
+
+    section img {
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+
+    .kartu-tutor {
+        width: 50%;
+    }
+
+    .kartu-kelas {
+        width: 50%;
+    }
+}
+
+
+.container123{
+    position: relative;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 280px;
+    height: 400px;
+    background: #fff;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0,0,0,.3);
+    overflow: hidden;
+}
+
+.profile{
+    position:  relative;
+    width: 100%;
+    height: 100%;
+    background: url("img/3x4.jpg") center/ cover;
+    transition: .5s;
+}
+
+.text1{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 200px;
+    background: #fff;
+    transform: translateY(230px);
+    transition: .5s;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.text1 #name{
+    font-family: 'comic sans ms';
+    color: #364f6b;
+    margin-top: 10px;
+    display: flex;
+}
+
+.content1{
+    text-align: center;
+    font-size: .8rem;
+    padding: 5px;
+    color: #364f6b;
+    opacity: 0;
+    transition: .5s ease;
+}
+
+span{
+    font-weight: bold;
+    font-size: 25px;
+    display: block;
+    transition: .7s cubic-bezier(.75, -1, 0, 1.15);
+    margin: 2px;
+}
+
+span:nth-child(1){
+    transform: translateX(-240px);
+}
+
+span:nth-child(2){
+    transform: translateX(240px);
+}
+
+.container123:hover .text1{
+    transform: translateY(0);
+}
+
+.container123:hover .profile{
+    transform: translateY(-70px) scale(1.1);
+}
+
+.container123:hover #name span{
+    transform: translateX(0);
+    transition-delay: .5s;
+}
+
+.container123:hover .content1{
+    opacity: 1;
+    transition-delay: 1.5s;
+}
+
